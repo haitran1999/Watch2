@@ -1,0 +1,52 @@
+.menu ul li{
+  display: block;
+}
+.toggle{
+  display: block;
+  cursor: pointer;
+}
+.menu{
+  display: block;
+  top: 100%;
+  left: 30%;
+  /* height: 100%; */
+}
+.menu ul li{
+  padding: 20px 0;
+}
+.menu ul{
+  background: #f9f9f9;
+  width: 100%;
+  text-align : center;
+  box-shadow: 0 0 10px gray;
+  transition: 200ms;
+  transform-origin: 50% 0%;
+  transform: scaleY(0);
+}
+.menu.active ul{
+  transform: scaleY(1);
+}
+.menu ul li {
+    cursor: pointer;
+    height: 59px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul span a.buynow{
+  display: none;
+}
+.navbar.active .menu {
+  line-height: 0px;
+}
+.navbar.active .menu ul li a{
+  padding: 20px 0;
+}
+.menu ul li a:before{
+  border-color: transparent;
+}
+.menu ul li:hover{
+  background: #ededed;
+}
+ 

@@ -1,0 +1,149 @@
+.content{
+  padding: 150px 70px 150px 70px;
+}
+.top1 .right p{
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.top1 h1{
+  font-size: 35px;
+}
+.top2 .left p{
+  font-size: 15px;
+}
+.top3 .product{
+  margin-top: 0;
+  padding: 100px 0;
+  grid-gap: 10px;
+}
+.top3 {
+  padding: 100px 70px;
+}
+.top3 h4.feature{
+  font-size: 17px;
+}
+.top3 p.text{
+  font-size: 14px;
+}
+.icon {
+  height: 75px;
+  width: 75px;
+}
+.top3 .icon i{
+  top: 22px;
+  left: 24px;
+  font-size: 30px;
+}
+.top5 {
+  padding: 100px 70px;
+  text-align: center;
+}
+.top5 .row h4{
+  font-size: 20px;
+}
+.top5 p{
+  font-size: 15px;
+}
+.top5 i{
+  font-size: 30px;
+}
+.whychoose{
+  padding: 100px 70px;
+}
+.top5 img {
+  width: 100%;
+}
+.whychoose img{
+  width: 100%;
+}
+.whychoose h3{
+  font-size: 27px;
+}
+.whychoose p{
+  font-size: 15px;
+}
+.whychoose .check span{
+  font-size: 15px;
+}
+.whychoose .check div i{
+  font-size: 15px;
+}
+.product .products .each img {
+  width: 100%;
+}
+.product{
+  padding: 100px 70px;
+}
+.products {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+}
+.product .products .each h3{
+  font-size: 15px;
+}
+.product span {
+  color: #2196f3;
+  font-size: 14px;
+}
+.product i.fas.fa-dollar-sign{
+  font-size: 14px;
+}
+.product a.buy{
+  font-size: 14px;
+  padding: 10px 20px;
+}
+.feedback{
+  padding: 100px 70px;
+}
+.product .above h3{
+  font-size: 27px;
+}
+.product .above p{
+  font-size: 15px;
+}
+.feedback .above h3{
+  font-size: 27px;
+}
+.feedback .above p{
+  font-size: 15px;
+}
+.feedback .below .each .textt{
+  font-size: 14px;
+}
+.faq .above h3{
+  font-size: 27px;
+}
+.faq .above p{
+  font-size: 15px;
+}
+.fap{
+  padding: 100px 70px;
+}
+.faq .left .question{
+  font-size: 14px;
+}
+.subscribe .text h3{
+  font-size: 26px;
+}
+.contact {
+  padding: 100px 70px;
+}
+.contact textarea{
+  width: 80%;
+}
+.contact .above h3{
+  font-size: 27px;
+}
+.contact .above p{
+  font-size: 15px;
+}
+.special i {
+  margin-top: 15px;
+  font-size: 18px;
+  border: 2px solid #2196f3;
+  color: #2196f3;
+  transition: 250ms;
+  padding: 7px 7px;
+}

@@ -1,0 +1,267 @@
+.navbar{
+  padding: 0 30px;
+}
+.toggle{
+  right: 30px;
+}
+.top1 .content{
+  padding: 100px 30px 100px 30px;
+}
+.top1 h1{
+  font-size: 12px;
+}
+.top1 .right p{
+  font-size: 9px;
+}
+.top2{
+  padding: 50px 30px;
+}
+.top2 h3{
+  font-size: 11px;
+}
+.top2 .left p{
+  font-size: 9px;
+}
+a.buynow {
+  font-size: 11px;
+  padding: 8px 20px;
+}
+.top3{
+  padding: 50px 30px;
+}
+.top3 h3:nth-child(1){
+  font-size: 12px;
+}
+.top3 p{
+  font-size: 9px;
+}
+.top3 .product{
+  margin-top: 0px;
+  padding: 0px;
+  grid-gap: 10px;
+}
+.top3 .product .each{
+  grid-column: span 12;
+  padding: 20px 15px;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+}
+.top3 .icon i {
+  font-size: 20px;
+  color: #2196f3;
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.top3 h4.feature{
+  font-size: 12px;
+}
+.top4 h3{
+  font-size: 12px;
+}
+.play {
+  height: 50px;
+  width: 50px;
+}
+.top4 .play i.fas.fa-play{
+  top: 16px;
+  left: 20px;
+  font-size: 20px;
+}
+.top5 h3:nth-child(1){
+  font-size: 12px;
+}
+.top5 p{
+  font-size: 9px;
+}
+.top5 {
+  padding: 50px 30px;
+  text-align: center;
+}
+.top5 img {
+  width: 100%;
+}
+.box{
+  padding: 20px;
+}
+.top5 .row h4{
+  font-size: 12px;
+}
+.top5 i {
+  font-size: 25px;
+}
+.whychoose {
+  padding: 50px 30px;
+}
+.whychoose .left {
+  grid-column: span 12;
+  text-align: center;
+}
+.whychoose .left img {
+  width: 100%;
+}
+.whychoose .right {
+  grid-column: span 12;
+  text-align: center;
+}
+.whychoose h3{
+  font-size: 12px;
+}
+.whychoose p{
+  font-size: 9px;
+}
+ 
+.whychoose .check div {
+  margin-bottom: 12px;
+  font-size: 12px;
+}
+.check {
+  margin-top: 25px;
+  text-align: left;
+  margin-left: 40px;
+}
+.product {
+  padding: 50px 30px;
+  text-align: center;
+}
+.product .above p{
+  width: 70%;
+  font-size: 9px;
+}
+.product .products .each img {
+  width: 100%;
+}
+.product .products .each{
+  grid-column: span 6;
+}
+.product a.buy {
+  padding: 11px 14px;
+  background: #2196f3;
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  border-radius: 22px;
+  transition: 250ms all;
+}
+.product .products .each h3{
+  font-size: 12px;
+}
+.product i.fas.fa-dollar-sign{
+  font-size: 15px;
+}
+.product span{
+  font-size: 15px;
+}
+.feedback {
+  padding: 50px 30px;
+}
+.feedback .below .each {
+  grid-column: span 12;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.feedback .above h3{
+  font-size: 12px;
+}
+.feedback .above p{
+  width: 70%;
+  font-size: 9px;
+}
+.feedback .below .each .textt{
+  font-size: 9px;
+}
+.feedback .role h4.name{
+  font-size: 12px;
+}
+.feedback p.role2{
+  font-size: 11px;
+}
+.faq{
+  padding: 50px 30px;
+}
+.faq .above h3{
+  font-size: 12px;
+}
+.faq .above p{
+  width: 70%;
+  font-size: 9px;
+}
+.faq .below .right img {
+  width: 100%;
+}
+.faq .below .left{
+  grid-area: left;
+}
+.faq .below{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: 
+    'right right'
+    'left left';
+}
+.faq .left .question {
+  padding: 15px 50px;
+  border: 1px solid #80808021;
+  margin-bottom: 7px;
+  font-size: 12px;
+}
+.subcribe a {
+  padding: 10px 18px;
+  background: #2196F3;
+  border-radius: 22px;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  transition: 250ms all;
+  outline: none;
+  font-size: 12px;
+}
+.subscribe{
+  height: 300px;
+}
+.subscribe .text h3{
+  font-size: 12px;
+}
+.subscribe input[type="text"]{
+  width: 100%;
+}
+.contact{
+  padding: 50px 30px;
+}
+.contact .above h3{
+  font-size: 12px;
+}
+.contact .above p{
+  font-size: 9px;
+}
+.contact .below .left {
+  grid-column: span 12;
+}
+.contact textarea{
+  width: 100%;
+}
+.contact .right {
+  grid-column: span 12;
+  text-align: center;
+  margin-top: 50px;
+}
+.contact .below .left input[type=text]{
+  width: 100%;
+}
+.menu.active ul {
+  transform: scaleY(1);
+  width: 250px;
+  margin-left: -20%;
+}
+.menu {
+  display: block;
+  top: 100%;
+  left: 30%;
+  /* height: 100%; */
+}
+.menu.active ul{
+  transform: scaleY(1);
+  width: 300px;
+}

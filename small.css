@@ -1,0 +1,293 @@
+.content{
+  padding: 150px 70px 150px 70px;
+}
+.top1 .right p{
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+.top1 h1{
+  font-size: 35px;
+}
+.top2 .left p{
+  font-size: 15px;
+}
+.top3 .product{
+  margin-top: 0;
+  padding: 100px 0;
+  grid-gap: 10px;
+}
+.top3 {
+  padding: 100px 70px;
+}
+.top3 h4.feature{
+  font-size: 17px;
+}
+.top3 p.text{
+  font-size: 14px;
+}
+.icon {
+  height: 75px;
+  width: 75px;
+}
+.top3 .icon i{
+  top: 22px;
+  left: 24px;
+  font-size: 30px;
+}
+.top5 {
+  padding: 100px 70px;
+  text-align: center;
+}
+.top5 .row h4{
+  font-size: 20px;
+}
+.top5 p{
+  font-size: 15px;
+}
+.top5 i{
+  font-size: 30px;
+}
+.whychoose{
+  padding: 100px 70px;
+}
+.top5 img {
+  width: 100%;
+}
+.whychoose img{
+  width: 100%;
+}
+.whychoose h3{
+  font-size: 27px;
+}
+.whychoose p{
+  font-size: 15px;
+}
+.whychoose .check span{
+  font-size: 15px;
+}
+.whychoose .check div i{
+  font-size: 15px;
+}
+.product .products .each img {
+  width: 100%;
+}
+.product{
+  padding: 100px 70px;
+}
+.products {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+}
+.product .products .each h3{
+  font-size: 15px;
+}
+.product span {
+  color: #2196f3;
+  font-size: 14px;
+}
+.product i.fas.fa-dollar-sign{
+  font-size: 14px;
+}
+.product a.buy{
+  font-size: 14px;
+  padding: 10px 20px;
+}
+.feedback{
+  padding: 100px 70px;
+}
+.product .above h3{
+  font-size: 27px;
+}
+.product .above p{
+  font-size: 15px;
+}
+.feedback .above h3{
+  font-size: 27px;
+}
+.feedback .above p{
+  font-size: 15px;
+}
+.feedback .below .each .textt{
+  font-size: 14px;
+}
+.faq .above h3{
+  font-size: 27px;
+}
+.faq .above p{
+  font-size: 15px;
+}
+.fap{
+  padding: 100px 70px;
+}
+.faq .left .question{
+  font-size: 14px;
+}
+.subscribe .text h3{
+  font-size: 26px;
+}
+.contact {
+  padding: 100px 70px;
+}
+.contact textarea{
+  width: 80%;
+}
+.contact .above h3{
+  font-size: 27px;
+}
+.contact .above p{
+  font-size: 15px;
+}
+.special i {
+  margin-top: 15px;
+  font-size: 18px;
+  border: 2px solid #2196f3;
+  color: #2196f3;
+  transition: 250ms;
+  padding: 7px 7px;
+}
+.top2 {
+  padding: 70px 50px;
+}
+.content {
+  padding: 150px 50px 100px 50px;
+}
+.top1 h1{
+  font-size: 15px;
+}
+.top1 .right p{
+  font-size: 12px;
+}
+a.buynow{
+  font-size: 12px;
+}
+
+.top2 h3{
+  font-size: 20px;
+}
+.top2 .left p{
+  font-size: 12px;
+}
+a.readmore{
+  font-size: 13px;
+}
+.top3 {
+  padding: 70px 50px;
+}
+.top3 .product .each{
+  grid-column: span 6;
+}
+.top3 h4.feature{
+  font-size: 15px;
+}
+.top3 p.text{
+  font-size: 12px;
+}
+.top3 .product .each{
+  padding: 20px;
+}
+.top3 .product{
+  padding: 50px 0;
+}
+.top5{
+  padding: 70px 50px;
+}
+.top5 h3:nth-child(1){
+  font-size: 20px;
+}
+.top3 h3:nth-child(1){
+  font-size: 20px;
+}
+.top3 p{
+  font-size: 15px;
+}
+.top5 .row h4{
+  font-size: 13px;
+}
+.box{
+  padding: 20px 40px;
+}
+ 
+.whychoose .left{
+  grid-column: span 12;
+}
+.whychoose .right {
+  grid-column: span 12;
+}
+.whychoose h3{
+  font-size: 20px;
+}
+.whychoose p{
+  font-size: 13px;
+}
+.whychoose .check span{
+  font-size: 13px;
+}
+.whychoose{
+  padding: 70px 50px;
+}
+.product {
+  padding: 70px 50px;
+}
+.product .above h3{
+  font-size: 20px;
+}
+.product .above p{
+  font-size: 13px;
+  width: 70%;
+}
+.product .products .each{
+  grid-column: span 6;
+}
+.feedback {
+  padding: 70px 50px;
+}
+.feedback .below .each {
+  grid-column: span 12;
+  margin-bottom: 30px;
+}
+.faq {
+  padding: 70px 50px;
+  text-align: center;
+}
+.faq .below .left {
+  grid-column: span 12;
+}
+.faq .below .right {
+  grid-column: span 12;
+}
+.faq .above h3{
+  font-size: 20px;
+}
+.faq .above p{
+  width: 70%;
+}
+.contact{
+  text-align: center;
+  padding: 70px 50px;
+}
+.contact .below .left{
+  grid-column: span 12;
+}
+.contact textarea{
+  width: 80%;
+}
+.contact .below .right{
+  grid-column: span 12;
+}
+button.submit{
+  margin-bottom: 40px;
+}
+
+.contact .below .right {
+  grid-column: span 12;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.contact .right .each{
+  grid-column: span 4;
+}
+.special {
+  grid-column: span 12;
+}
